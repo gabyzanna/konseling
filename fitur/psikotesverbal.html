@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Verbal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** CSS Plugins Needed for the Project ** -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/plugins/themify-icons/fonts/themify-icons.css">
+  <!--Favicon-->
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/images/favicon.png" type="image/x-icon">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/css/verbal.css" rel="stylesheet" media="screen" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="shadow-bottom sticky-top bg-white">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container">
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./dashboard.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./reservasi.html">Reservasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./tesonline.html">Tes Online</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./chat.html">Forum Diskusi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="./konselor.html">Konselor</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- /header -->
+
+  <!-- details page -->
+  <section class="single section-sm pb-0">
+    <section class="py-4 overflow-hidden">
+        <div class="container px-4 mx-auto">
+          <div class="pt-5 bg-neutral-50 border border-neutral-100 rounded-xl">
+            <div class="px-6">
+              <h3 class="font-heading pb-8 text-lg text-neutral-600 font-semibold"><center>HASIL TES PSIKOTES VERBAL</center></h3>
+              <br>
+              <br>
+              <div class="w-full overflow-x-auto">
+                <table class="w-full min-w-max">
+                  <thead>
+                    <tr class="text-left">
+                      <th class="p-0 border-b border-neutral-100">
+                        <div class="pb-3.5"><a class="text-sm text-gray-400 font-medium" href="#">No</a></div>
+                      </th>
+                      <th class="p-0 border-b border-neutral-100">
+                        <div class="pb-3.5"><a class="text-sm text-gray-400 font-medium" href="#">Nama</a></div>
+                      </th>
+                      <th class="p-0 border-b border-neutral-100">
+                        <div class="pb-3.5"><a class="text-sm text-gray-400 font-medium" href="#">Karakter</a></div>
+                      </th>
+                      <th class="p-0 border-b border-neutral-100">
+                        <div class="pb-3.5"><a class="text-sm text-gray-400 font-medium" href="#">Score</a></div>
+                      </th>
+                      <th class="p-0 border-b border-neutral-100">
+                        <div class="pb-3.5"><a class="text-sm text-gray-400 font-medium" href="#">Action</a></div></div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody id="list-reservasi">
+                
+                  </tbody>
+                </table>
+              </div>
+              <br>
+              <a href="./formverbal.html" class="btn btn-primary">-- Tambah Data</a>
+              <br><br>
+            </div>
+          </div>
+        </div>
+      </section>
+  </section>
+  <br><br>
+  <!-- /details page -->
+  
+      <script type="module" src="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/js/aritmatika.js"></script>
+      <script type="module" src="../js/list-verbal.js"></script>
+  
+</body>
+
+</html>

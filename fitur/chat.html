@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <title>Forum Diskusi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** CSS Plugins Needed for the Project ** -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/plugins/themify-icons/fonts/themify-icons.css">
+  <!--Favicon-->
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/images/favicon.png" type="image/x-icon">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/assets/style.css" rel="stylesheet" media="screen" />
+  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="../css/chat.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700,300">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400&family=Finger+Paint&display=swap">
+  </head>
+<body>
+   <!-- header -->
+   <header class="shadow-bottom sticky-top bg-white">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container">
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./dashboard.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./reservasi.html">Reservasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./tesonline.html">Tes Online</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./chat.html">Forum Diskusi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="./konselor.html">Konselor</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- /header -->
+  <div class="card">
+    <div id="header">
+      <h1>KeeKonseling</h1>
+    </div>
+    <div id="message-section">
+      <div class="message" id="bot"><span id="bot-response">Hallo, dengan KeeKonseling disini, ada yang bisa dibantu?</span></div>
+    </div>
+    <div id="input-section">
+      <input id="input" type="text" placeholder="Type a message" autocomplete="off" autofocus="autofocus"/>
+      <button class="send" onclick="sendMessage()">
+        <div class="circle"><i class="zmdi zmdi-mail-send"></i></div>
+      </button>
+    </div>
+  </div>
+  <br><br>
+  <script src="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/js/chat.js" type="module"></script>
+</body>
+</html>

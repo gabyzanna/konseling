@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Forum Diskusi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** CSS Plugins Needed for the Project ** -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/plugins/themify-icons/fonts/themify-icons.css">
+  <!--Favicon-->
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/images/favicon.png" type="image/x-icon">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/assets/style.css" rel="stylesheet" media="screen" />
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+    }
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #c2adad;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #6fb871;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #70b673;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Forum Diskusi Umum</h1>
+    <form>
+      <div class="form-group">
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama" required>
+      </div>
+      <div class="form-group">
+        <label for="pesan">Join our discusion</label>
+        <textarea id="pesan" name="pesan" rows="4" required></textarea>
+      </div>
+      <button type="submit">Kirim Pesan</button>
+    </form>
+  </div>
+</body>
+</html>

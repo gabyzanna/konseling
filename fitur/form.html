@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar</title>
+    <link rel="stylesheet" type="text/css" href="../css/style1.css">
+</head>
+<body>
+    <br>
+    <div class="registration-container">
+        <h2>Daftarkan Diri Anda</h2>
+        <form action="proses_pendaftaran.php" method="post">
+            <div class="input-container">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+            <div class="input-container">
+                <label for="no_telp">Nomor Telp:</label>
+                <input type="tel" id="no_telp" name="no_telp" required>
+            </div>
+            <div class="input-container">
+                <label for="ttl">Tanggal Lahir:</label>
+                <input type="date" id="ttl" name="ttl" required>
+            </div>
+            <div class="input-container">
+                <label for="nim">Nomor Induk Mahasiswa :</label>
+                <input type="text" id="nim" name="nim" required>
+            </div>
+            <div class="input-container">
+                <label for="alamat">Alamat:</label>
+                <textarea id="alamat" name="alamat" required></textarea>
+            </div>
+            <div class="input-container">
+                <button type="submit">Daftar</button>
+            </div>
+            <center>
+                <p>Sudah Punya Akun?</p><a href="../fitur/login.html">Login</a>
+            </center>
+        </form>
+    </div>
+</body>
+</html>

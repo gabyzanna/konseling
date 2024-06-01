@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>Reservasi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** CSS Plugins Needed for the Project ** -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/plugins/themify-icons/fonts/themify-icons.css">
+  <!--Favicon-->
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/images/favicon.png" type="image/x-icon">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/assets/style.css" rel="stylesheet" media="screen" />
+  
+</head>
+
+<body>
+  <!-- header -->
+  <header class="shadow-bottom sticky-top bg-white">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container">
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./dashboard.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./reservasi.html">Reservasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./tesonline.html">Tes Online</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./chat.html">Forum Diskusi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="./konselor.html">Konselor</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- /header -->
+
+  <!-- details page -->
+  <section class="single section-sm pb-0">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-12">
+          <div class="p-lg-5 p-4 bg-white">
+            <h2 class="mb-5">Reservasi</h2>
+            <h6>Buat janji terlebih dahulu dengan konselor kami!</h6>
+
+            <br>
+            
+            <br><br>
+
+            <div class="form-group">
+              <label for="status">Nama Pasien</label>
+              <input type="text" id="name" class="form-control" placeholder="nama pasien">
+            </div>
+
+            <div class="form-group">
+              <label for="status">Konselor</label>
+              <select id="konselor" class="form-control">
+                  <option value="">- Pilih Konselor</option>
+                  <option value="Ardiva Putri">Ardiva Putri</option>
+                  <option value="Shahieza Alfadia">Shahieza Alfadia</option>
+                  <option value="Gabriella Youzanna">Gabriella Youzanna</option>
+                  <option value="Dina Apriliani">Dina Apriliani</option>
+                  <option value="Putri Tamara">Putri Tamara</option>
+                  <option value="Cahaya Maharani">Cahaya Maharani</option>
+              </select>
+          </div>
+<br>
+          <div class="form-group">
+            <label for="status">Jam Janji</label>
+            <select id="jam-janji" class="form-control">
+                <option value="">- Pilih Waktu</option>
+                <option value="07.00 - 09.00">07.00 - 09.00</option>
+                <option value="10.00 - 14.00">10.00 - 14.00</option>
+                <option value="19.00 - 20.00">19.00 - 20.00</option>
+             </select>
+        </div>
+            
+            
+            
+      </div>
+      <br>
+      <center>
+
+        <button onclick="doBuatJanji()" class="btn btn-primary">Buat Janji Temu</button>
+      </center>
+    </div>
+  </section>
+  <br><br>
+  <!-- /details page -->
+
+  
+
+  <!-- ** JS Plugins Needed for the Project ** -->
+  <!-- jquiry -->
+  <script src="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/plugins/jquery/jquery-1.12.4.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- match-height JS -->
+  <script src="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/plugins/match-height/jquery.matchHeight-min.js"></script>
+  <!-- Main Script -->
+  <script src="https://cdn.jsdelivr.net/gh/bimbingankonseling/keekonseling.github.io/assets/script.js"></script>
+  <script type="module" src="../js/reservasi.js"></script>
+</body>
+
+</html>
